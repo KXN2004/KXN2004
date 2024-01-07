@@ -43,7 +43,9 @@ class Kevin(Person):
         self.age = 19
         self.aspiration = 'iOS Developer'
         self.email = 'kevin.nadar@pm.me'
-        return self
+
+    def say_hello(self) -> str:
+        return Kevin says Hello👋
 ```
 
 <br/>
